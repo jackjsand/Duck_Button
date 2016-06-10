@@ -1,0 +1,13 @@
+~~~plan~~~
+
+host the website
+	- domain
+	- AWS
+front-end
+	- HTML, CSS, JS
+Serverless Framework
+	- easy
+	- medium
+	- hard
+SimpleDB / DynamoDB
+	- ???

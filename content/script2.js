@@ -1,6 +1,6 @@
 // JavaScript
 
-function duckbutt(){
+/* function duckbutt(){
 
 	var n = document.images.length;
 	var i = 1;
@@ -34,3 +34,35 @@ function duckbutt(){
 
     };
 };
+*/
+
+
+/*"https://s3-us-west-1.amazonaws.com/jacksand.me/images/duck_1.jpg" */
+
+document.ready(function() {
+	
+	'#dbutton'.on('click', function() {
+		
+		.ajax({
+			url: https://3k57xj0w23.execute-api.us-west-2.amazonaws.com/dev/buttonClick
+			success: function(json) {
+				"#div1".append(json.path);
+				
+				"#div1".createElement("IMG");
+				img.setAttribute("src",json.path);
+			}
+		});
+	});
+});
+
+/*
+
+https://vo7lhdeful.execute-api.us-east-1.amazonaws.com/development/weather/local/5
+
+https://vo7lhdeful.execute-api.us-east-1.amazonaws.com/development/weather/local
+
+*/
+
+
+
+
